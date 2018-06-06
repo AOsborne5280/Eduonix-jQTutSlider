@@ -35,9 +35,9 @@ h1 {
 }
 
 .faq li img {
-  width:18px; /* you can use % */
+  width:20px; /* you can use % */
   height: auto;
-  padding-right: 5px;
+  padding: 4px;
 }
 
 .faq li {
@@ -55,6 +55,12 @@ h1 {
 .faq li.a {
   background: #ddd;
   display: none;
+}
+
+.rotate {
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 @media (max-width: 800px) {
